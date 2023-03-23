@@ -1,0 +1,56 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../libs/bootstrap/scss/variables";
+
+@import "../libs/bootstrap/scss/maps";
+@import "../libs/bootstrap/scss/mixins";
+@import "../libs/bootstrap/scss/root";
+
+@import "../libs/bootstrap/scss/utilities";
+@import "../libs/bootstrap/scss/reboot";
+@import "../libs/bootstrap/scss/type";
+@import "../libs/bootstrap/scss/images";
+@import "../libs/bootstrap/scss/containers";
+@import "../libs/bootstrap/scss/grid";
+@import "../libs/bootstrap/scss/helpers";
+@import "../libs/bootstrap/scss/utilities/api";
+
+@import "../libs/bootstrap/scss/utilities/api";
+
+//.attribution { font-size: 11px; text-align: center; }
+//.attribution a { color: hsl(228, 45%, 44%); }
+
+#ñ{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-indent: 10px;
+    margin: 0 10px;
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap');
+}
+#sub{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    margin: 0 15px 10px 0px;
+}
+.container-fluid{
+    background-color: hsl(212, 45%, 89%);
+    padding: 280px 0;
+}
+
+.container{
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 440px;
+}
+#foto{
+    width: 260px;
+    height: 260px;
+    border-radius: .5rem;
+    margin: 15px 0px 5px 8px;
+}
